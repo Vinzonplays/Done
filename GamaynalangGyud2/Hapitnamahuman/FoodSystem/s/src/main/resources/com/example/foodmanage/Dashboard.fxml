@@ -9,12 +9,12 @@
 
 <BorderPane fx:id="hootPane" prefHeight="911.0" prefWidth="1546.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodmanage.Controller.DashController">
     <center>
-        <FlowPane fx:id="productItems" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+        <FlowPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
     </center>
    <top>
       <HBox alignment="CENTER" prefHeight="48.0" prefWidth="1546.0" style="-fx-background-color: #F5DEB3;" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="si_Home1" onAction="#onHome" prefHeight="37.0" prefWidth="155.0" style="-fx-background-color: #A0522D; -fx-background-radius: 10;" text="Home" textFill="WHITE">
+            <Button  onAction="#onHome" prefHeight="37.0" prefWidth="155.0" style="-fx-background-color: #A0522D; -fx-background-radius: 10;" text="Home" textFill="WHITE">
                <font>
                   <Font name="Arial Bold" size="20.0" />
                </font>
@@ -22,7 +22,7 @@
                   <Insets top="5.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="si_Menu1" onAction="#onMenu" prefHeight="37.0" prefWidth="166.0" style="-fx-background-color: #A0522D; -fx-background-radius: 10;" text="Menu" textFill="WHITE">
+            <Button  onAction="#onMenu" prefHeight="37.0" prefWidth="166.0" style="-fx-background-color: #A0522D; -fx-background-radius: 10;" text="Menu" textFill="WHITE">
                <HBox.margin>
                   <Insets left="20.0" top="5.0" />
                </HBox.margin>
@@ -30,7 +30,7 @@
                   <Font name="Arial Bold" size="20.0" />
                </font>
             </Button>
-            <Button fx:id="si_Contact1" onAction="#onContact" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: #A0522D; -fx-background-radius: 10;" text="Contact" textFill="WHITE">
+            <Button  onAction="#onContact" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: #A0522D; -fx-background-radius: 10;" text="Contact" textFill="WHITE">
                <font>
                   <Font name="Arial Bold" size="20.0" />
                </font>
