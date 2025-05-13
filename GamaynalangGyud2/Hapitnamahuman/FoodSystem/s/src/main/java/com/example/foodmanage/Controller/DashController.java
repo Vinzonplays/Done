@@ -4,7 +4,6 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.Node;
 import java.io.IOException;
@@ -28,6 +27,12 @@ public class DashController {
 
     @FXML
     private TextField si_Search;
+
+    @FXML
+    public void initialize() {
+        // Load Home view by default on start
+        loadUI("Home.fxml");
+    }
 
     @FXML
     private void onHome() {
