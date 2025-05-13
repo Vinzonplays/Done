@@ -7,37 +7,37 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="805.0" prefWidth="1330.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.foodmanage.Controller.HomeController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="863.0" prefWidth="1546.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodmanage.Controller.HomeController">
    <children>
-      <HBox prefHeight="615.0" prefWidth="846.0" style="-fx-background-color: block;">
+      <HBox prefHeight="868.0" prefWidth="1546.0" style="-fx-background-color: block;">
          <children>
-            <AnchorPane prefHeight="805.0" prefWidth="1330.0">
+            <AnchorPane prefHeight="828.0" prefWidth="600.0">
                <children>
                   <Label layoutX="49.0" layoutY="230.0" text="ARE YOU HUNGRY?">
                      <font>
-                        <Font name="Bodoni MT Black" size="30.0" />
+                        <Font name="Georgia Pro Bold" size="30.0" />
                      </font>
                   </Label>
-                  <Label layoutX="56.0" layoutY="269.0" text="Order now or visit us...">
+                  <Label layoutX="46.0" layoutY="267.0" text="Order now or visit us...">
                      <font>
-                        <Font name="Arial" size="25.0" />
+                        <Font name="Georgia Pro Black" size="25.0" />
                      </font>
                   </Label>
-                  <Label layoutX="56.0" layoutY="297.0" text="Best food restaurant in Philippines, ">
+                  <Label layoutX="56.0" layoutY="297.0" prefHeight="24.0" prefWidth="299.0" text="Best food restaurant in Philippines, ">
                      <font>
-                        <Font name="Arial" size="13.0" />
+                        <Font name="Calibri" size="19.0" />
                      </font>
                   </Label>
-                  <Label layoutX="56.0" layoutY="311.0" text="we'll serve you the best">
+                  <Label layoutX="56.0" layoutY="321.0" text="we'll serve you the best">
                      <font>
-                        <Font name="Arial" size="13.0" />
+                        <Font name="Arial" size="19.0" />
                      </font>
                   </Label>
                </children>
             </AnchorPane>
-            <AnchorPane prefHeight="610.0" prefWidth="431.0">
+            <AnchorPane prefHeight="853.0" prefWidth="750.0">
                <children>
-                  <ImageView fitHeight="291.0" fitWidth="313.0" layoutX="58.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="homeImageView" fitHeight="863.0" fitWidth="950.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
                </children>
             </AnchorPane>
          </children>

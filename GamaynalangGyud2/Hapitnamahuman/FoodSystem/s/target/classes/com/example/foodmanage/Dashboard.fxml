@@ -1,34 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="hootPane" prefHeight="911.0" prefWidth="1546.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodmanage.Controller.DashController">
-
-    <left>
-        <VBox prefHeight="770.0" prefWidth="122.0" BorderPane.alignment="CENTER">
-            <children>
-                <Button fx:id="si_Home" onAction="#onHome" prefHeight="91.0" prefWidth="131.0" text="Home" />
-                <Button fx:id="si_Menu" onAction="#onMenu" prefHeight="91.0" prefWidth="131.0" text="Menu">
-                    <VBox.margin><Insets top="10.0" /></VBox.margin>
-                </Button>
-                <Button fx:id="si_Special" onAction="#onSpecial" prefHeight="91.0" prefWidth="131.0" text="About Us">
-                    <VBox.margin><Insets top="10.0" /></VBox.margin>
-                </Button>
-            <Button fx:id="si_Contact" layoutX="10.0" layoutY="213.0" onAction="#onContact" prefHeight="91.0" prefWidth="131.0" text="Contact">
-               <VBox.margin>
-                  <Insets top="10.0" />
-               </VBox.margin>
-            </Button>
-            </children>
-            <BorderPane.margin>
-                <Insets left="10.0" top="30.0" />
-            </BorderPane.margin>
-        </VBox>
-    </left>
+<BorderPane fx:id="hootPane" prefHeight="911.0" prefWidth="1546.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodmanage.Controller.DashController">
     <center>
         <FlowPane fx:id="productItems" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
     </center>
+   <top>
+      <HBox alignment="CENTER" prefHeight="48.0" prefWidth="1546.0" style="-fx-background-color: #F5DEB3;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="si_Home1" onAction="#onHome" prefHeight="37.0" prefWidth="155.0" style="-fx-background-color: #A0522D; -fx-background-radius: 10;" text="Home" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="si_Menu1" onAction="#onMenu" prefHeight="37.0" prefWidth="166.0" style="-fx-background-color: #A0522D; -fx-background-radius: 10;" text="Menu" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="20.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="si_Contact1" onAction="#onContact" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: #A0522D; -fx-background-radius: 10;" text="Contact" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="20.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets left="100.0" />
+         </padding>
+      </HBox>
+   </top>
 
 </BorderPane>
