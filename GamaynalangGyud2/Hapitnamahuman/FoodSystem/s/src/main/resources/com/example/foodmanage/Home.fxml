@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -7,37 +8,40 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="863.0" prefWidth="1546.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodmanage.Controller.HomeController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="816.0" prefWidth="1546.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodmanage.Controller.HomeController">
    <children>
-      <HBox prefHeight="868.0" prefWidth="1546.0" style="-fx-background-color: block;">
+      <HBox prefHeight="824.0" prefWidth="1546.0" style="-fx-background-color: block;">
          <children>
-            <AnchorPane prefHeight="828.0" prefWidth="600.0">
+            <AnchorPane prefHeight="818.0" prefWidth="591.0" style="-fx-background-color: FFFBDE;">
                <children>
-                  <Label layoutX="49.0" layoutY="230.0" text="ARE YOU HUNGRY?">
+                  <Label layoutX="49.0" layoutY="229.0" prefHeight="48.0" prefWidth="366.0" text="ARE YOU HUNGRY?" textFill="#fa8f03">
                      <font>
-                        <Font name="Georgia Pro Bold" size="30.0" />
+                        <Font name="Bauhaus 93" size="42.0" />
                      </font>
                   </Label>
-                  <Label layoutX="46.0" layoutY="267.0" text="Order now or visit us...">
+                  <Label layoutX="46.0" layoutY="267.0" text="Order now or visit us..." textFill="#fa8f03">
                      <font>
-                        <Font name="Georgia Pro Black" size="25.0" />
+                        <Font name="Bookman Old Style Bold" size="26.0" />
                      </font>
                   </Label>
-                  <Label layoutX="56.0" layoutY="297.0" prefHeight="24.0" prefWidth="299.0" text="Best food restaurant in Philippines, ">
+                  <Label layoutX="56.0" layoutY="297.0" prefHeight="24.0" prefWidth="355.0" text="Best food restaurant in Philippines, " textFill="#fa8f03">
                      <font>
-                        <Font name="Calibri" size="19.0" />
+                        <Font name="Bookman Old Style" size="18.0" />
                      </font>
                   </Label>
-                  <Label layoutX="56.0" layoutY="321.0" text="we'll serve you the best">
+                  <Label layoutX="56.0" layoutY="321.0" text="we'll serve you the best" textFill="#fa8f03">
                      <font>
-                        <Font name="Arial" size="19.0" />
+                        <Font name="Bookman Old Style" size="18.0" />
                      </font>
                   </Label>
                </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
             </AnchorPane>
-            <AnchorPane prefHeight="853.0" prefWidth="750.0">
+            <AnchorPane prefHeight="657.0" prefWidth="950.0" style="-fx-background-color: black;">
                <children>
-                  <ImageView fx:id="homeImageView" fitHeight="863.0" fitWidth="950.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="homeImageView" fitHeight="767.0" fitWidth="920.0" layoutX="15.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
                </children>
             </AnchorPane>
          </children>
