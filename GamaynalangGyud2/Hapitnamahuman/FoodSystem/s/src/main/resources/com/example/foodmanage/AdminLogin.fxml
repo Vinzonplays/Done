@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="591.0" prefWidth="567.0" spacing="15" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodmanage.Controller.AdminLoginController">
+     <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Admin Login" />
+
+     <TextField fx:id="usernameField" maxWidth="250" promptText="Username" />
+
+     <PasswordField fx:id="passwordField" maxWidth="250" promptText="Password" />
+
+     <Button fx:id="loginButton" onAction="#handleLoginAction" prefWidth="250" text="Login" />
+
+     <Label fx:id="errorLabel" textFill="red" visible="false" />
+ </VBox>

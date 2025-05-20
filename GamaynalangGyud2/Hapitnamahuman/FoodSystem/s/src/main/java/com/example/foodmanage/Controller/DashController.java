@@ -45,8 +45,8 @@ public class DashController {
     }
 
     @FXML
-    private void onSpecial() {
-        loadUI("Special.fxml");
+    private void onLogin() {
+        loadUI("AdminLogin.fxml");
     }
 
     @FXML

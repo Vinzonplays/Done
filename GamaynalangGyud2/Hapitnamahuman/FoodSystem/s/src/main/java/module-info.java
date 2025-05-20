@@ -3,6 +3,7 @@ module com.example.foodmanage {
     requires javafx.fxml;
     requires java.desktop;
     requires java.compiler;
+    requires java.sql;
 
 
     opens com.example.foodmanage to javafx.fxml;
